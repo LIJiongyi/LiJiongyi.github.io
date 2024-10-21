@@ -1,0 +1,18 @@
+---
+layout: post
+title: "testing"
+date: 2024-10-21
+categories: test
+excerpt: "这是我的第一篇文章的摘要。"
+---
+
+<h1>Blog Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
