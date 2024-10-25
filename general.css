@@ -9,13 +9,11 @@
     padding: 0;
     text-shadow: 0 0 5px white, 0 0 10px white; /* 白色光晕效果 */
 }
-
 /* 背景设置 */
 body {
     background-color: black;
     transition: opacity 1s ease-out;
 }
-
 body.fade-out {
     opacity: 0;
 }
