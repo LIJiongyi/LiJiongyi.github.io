@@ -40,7 +40,7 @@ const messages = [
       setTimeout(() => {
         document.body.classList.add('fade-out'); // Add fade-out class
         setTimeout(() => {
-          window.location.href = 'index.html'; // Redirect to index.html after fade-out
+          window.location.href = 'mainpage.html'; // Redirect to index.html after fade-out
         }, 1000); // Match this delay with the CSS transition duration
       }, 1200);
     }
