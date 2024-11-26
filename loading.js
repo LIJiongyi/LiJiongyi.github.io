@@ -11,7 +11,7 @@ const messages = [
   "Ports: 1 Serial Port, 1 Parallel Port, 2 USB Ports",
   "Peripherals: 1 Keyboard, 1 Mouse",
   "Operating System: Arch Linux",
-  "Booting from Hard Disk...",
+  "Booting from SSD...",
   "C:> Li_Jiongyi"
 ];
   
