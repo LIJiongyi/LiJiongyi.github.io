@@ -34,7 +34,7 @@ baseurl: "/blog/index.html" # the subpath of your site, e.g. /blog
 url: "https://lijiongyi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb 暂时注释掉这个推特
 github_username:  lijiongyi
-
+ 
 # Build settings
 theme: minima
 paginate: 5 # 每页显示5篇文章
