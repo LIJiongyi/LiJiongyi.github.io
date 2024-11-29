@@ -38,7 +38,7 @@ github_username:  lijiongyi
 # Build settings
 theme: minima
 paginate: 5 # 每页显示5篇文章
-
+paginate_path: "/page:num/"
 exclude:
   - Gemfile
   - Gemfile.lock
