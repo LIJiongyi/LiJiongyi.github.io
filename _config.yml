@@ -20,7 +20,7 @@
 
 title: Johnny's small corner
 # theme: 
-remote_theme:  jekyll/minima # 使用更漂亮的主题
+remote_theme:  pages-themes/cayman@v0.2.0 # 使用 Cayman 主题
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -36,7 +36,6 @@ url: "https://lijiongyi.github.io/" # the base hostname & protocol for your site
 github_username:  lijiongyi
  
 # Build settings
-theme: minima
 paginate: 5 # 每页显示5篇文章
 paginate_path: "/page:num/"
 exclude:
