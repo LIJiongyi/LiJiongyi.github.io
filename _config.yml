@@ -20,14 +20,16 @@
 
 title: Johnny's small corner
 # theme: 
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: beautiful-jekyll/beautiful-jekyll # 使用更漂亮的主题
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate # 添加分页插件
+  - jekyll-sitemap # 添加站点地图插件
+  - jekyll-seo-tag # 添加SEO插件
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi! This is my personal blog. I will share my thoughts and ideas here.☺️
 baseurl: "/blog/index.html" # the subpath of your site, e.g. /blog
 url: "https://lijiongyi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb 暂时注释掉这个推特
@@ -35,9 +37,27 @@ github_username:  lijiongyi
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+paginate: 5 # 每页显示5篇文章
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+
+navbar:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
