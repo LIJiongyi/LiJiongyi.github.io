@@ -30,7 +30,7 @@ plugins:
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi! This is my personal blog. I will share my thoughts and ideas here.☺️
-baseurl: "/blog/index.html" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://lijiongyi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb 暂时注释掉这个推特
 github_username:  lijiongyi
