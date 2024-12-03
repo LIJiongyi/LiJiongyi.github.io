@@ -1,18 +1,40 @@
 const messages = [
   "BIOS Date 2/4/1995 15:43:29 Ver: 3.10.55.910",
-  "CPU: Intel i9-13980HX 65W",
-  "Memory: 32 GB RAM",
+  "CPU: Apple M1 Pro (16) @ 3.2 GHz",
+  "Memory: 16 GB RAM",
   "Memory Clock: 66 MHz, CAS Latency-2, RAS Precharge-3, RAS Active-6, TRAS-20 (2T Timing)",
   "Storage: 1024 GB Samsung PM9A1 SSD PCIe4.0",
-  "Graphics: NVidia RTX 4090 Laptop 16GB 175W",
+  "Graphics: Apple M1 Pro",
   "Sound: 16-bit Sound Blaster Pro-compatible Sound Card",
   "CD-ROM Drive: 4x Speed",
   "Floppy Drive: 3.5-inch, 1.44 MB",
   "Ports: 1 Serial Port, 1 Parallel Port, 2 USB Ports",
   "Peripherals: 1 Keyboard, 1 Mouse",
-  "Operating System: Arch Linux",
+  "Operating System: MacOS 15.1.1",
   "Booting from SSD...",
-  "C:> Li_Jiongyi"
+  "Loading Darwin Kernel...",
+  "Initializing Hardware...",
+  "Starting Services...",
+  "Loading User Interface...",
+  `
+'c.          lijiongyi@lijiongyiMacBook-Pro.local
+                 ,xNMM.          ------------------------------------ 
+               .OMMMMo           OS: macOS 15.1.1 24B91 arm64 
+               OMMM0,            Host: MacBookPro18,3 
+     .;loddo:' loolloddol;.      Kernel: 24.1.0 
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 0 hour, 1 mins 
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 346 (port) 
+ XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: zsh 5.9 
+;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 3024x1964 
+:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua 
+.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: yabai 
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.    Terminal: Apple_Terminal 
+ .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal Font: MesloLGS-NF-Italic 
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   CPU: Apple M1 Pro 
+    kMMMMMMMMMMMMMMMMMMMMMMd     GPU: Apple M1 Pro 
+     ;KMMMMMMMWXXWMMMMMMMk.      Memory: 2275MiB / 16384MiB 
+       .cooc,.    .,coo:.   
+`
 ];
   
   const loadingScreen = document.getElementById('loadingScreen');
