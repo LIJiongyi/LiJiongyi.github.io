@@ -32,7 +32,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi! This is my personal blog. I will share my thoughts and ideas here.☺️
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://lijiongyi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb 暂时注释掉这个推特
+# twitter_username: jekyllrb dont need this right now
 github_username:  lijiongyi
  
 # Build settings
