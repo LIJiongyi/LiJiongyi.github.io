@@ -15,26 +15,8 @@ const messages = [
   "Loading Darwin Kernel...",
   "Initializing Hardware...",
   "Starting Services...",
-  "Loading User Interface...",
-  `
-'c.          lijiongyi@lijiongyiMacBook-Pro.local
-                 ,xNMM.          ------------------------------------ 
-               .OMMMMo           OS: macOS 15.1.1 24B91 arm64 
-               OMMM0,            Host: MacBookPro18,3 
-     .;loddo:' loolloddol;.      Kernel: 24.1.0 
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 0 hour, 1 mins 
- .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 346 (port) 
- XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: zsh 5.9 
-;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 3024x1964 
-:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua 
-.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: yabai 
- kMMMMMMMMMMMMMMMMMMMMMMMMWd.    Terminal: Apple_Terminal 
- .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal Font: MesloLGS-NF-Italic 
-  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   CPU: Apple M1 Pro 
-    kMMMMMMMMMMMMMMMMMMMMMMd     GPU: Apple M1 Pro 
-     ;KMMMMMMMWXXWMMMMMMMk.      Memory: 2275MiB / 16384MiB 
-       .cooc,.    .,coo:.   
-`
+  "Loading User Interface..."
+  
 ];
   
   const loadingScreen = document.getElementById('loadingScreen');
