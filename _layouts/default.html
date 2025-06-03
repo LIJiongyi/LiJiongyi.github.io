@@ -1,0 +1,30 @@
+<!-- filepath: _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/general.css">
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <nav>
+      <a href="/mainpage.html">Home</a>
+      <a href="/about/about.html">About Me</a>
+      <a href="/resume/resume.html">Resume</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="/contact/contact.html">Contact Me</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    {{ content }}
+  </div>
+  
+  <footer>
+    <p>Copyright © 2024 Li Jiongyi's life. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
